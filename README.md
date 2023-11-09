@@ -1,6 +1,8 @@
 # Coverage and Sex Check for a single target
 
-This utility assumes that you have sequenced FMR and COL1A1 in the case of adaptive sampling.
+Use this shell script to quickly compute depth of coverage within one gene region and two controls.
+
+This utility assumes that you have sequenced FMR and COL1A1 in the case of adaptive sampling. 
 
 ## Requirements
 
