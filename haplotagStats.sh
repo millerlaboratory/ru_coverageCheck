@@ -7,7 +7,7 @@ while getopts "i:r:" option; do
     esac
 done
 
-RUSTSCRIPT="/n/scripts/haplotagParse"
+RUSTSCRIPT="haplotagParse"
 HEADER="File\tRegion\tCoords\tDepth\tHP1\tHP2\tPercentAssigned"
 
 FMR="chrX:147900000-148000000"
