@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RUSTSCRIPT="haplotagParse"
+RUSTSCRIPT="./haplotagParse"
 HEADER="File\tRegion\tCoords\tDepth\tHP1\tHP2\tPercentAssigned"
 FMR="chrX:147900000-148000000"
 COL1A1="chr17:50150000-50250000"
