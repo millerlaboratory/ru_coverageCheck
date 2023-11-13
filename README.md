@@ -34,6 +34,6 @@ REGION="chrX:12343-23456"
 
 for BAM in ${BAMFILES[@]:1}
 do
-    ./haplotagStats.sh -r $REGION -i $BAM >> summary.txt
+    ./haplotagStats.sh -r $REGION -i $BAM | tail -n+2 >> summary.txt
 done
 ```
